@@ -1,0 +1,13 @@
+#read.txt
+LapuLapuCTF WriteUps for the Challenges:
+
+#FORENSICS
+
+#REVERSE ENGINEERING
+
+#OSINT
+
+#WEB-EX
+
+#CRYPTOGRAPHY
+
