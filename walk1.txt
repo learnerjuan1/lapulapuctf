@@ -24,3 +24,7 @@ Trying strings command:
 $strings a_walk.jpg
 scroll down and you will find the flag:
 lapulapu{L4K4D_t4y0_1521}
+
+--------- other methods:
+** https://hexed.it/
+** Binary viewer for the picture
