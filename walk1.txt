@@ -1,0 +1,26 @@
+A Walk 1 (70)
+
+After the defeat of Magellan, LapuLapu was able to capture one of the ships that was abandoned. 
+Searching at the items, a picture of Magellan caught his eye and claimed this as one of his prize. 
+Jumping down the ship and walking along the shore . . . 
+try your forensics skills if you can investigate the Flag hidden inside Magellan's Picture frame while walking along Lapulapu.
+
+Filename: a_walk.jpg
+
+------------ Write Up:
+
+using this online steganography : https://stylesuxx.github.io/steganography/
+will give you information but flag is not seen.
+is this just an image ? (when you use $file a_walk.jpg)
+
+from the challenge "walk1". Lets try to find out our file using binwalk
+$binwalk a_walk.jpg
+This will give you information that:
+from binwalk we can see that the file (aside from an image file) is also an ELF. 
+Executable and Linkable Format.
+Reference: https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
+
+Trying strings command:
+$strings a_walk.jpg
+scroll down and you will find the flag:
+lapulapu{L4K4D_t4y0_1521}
