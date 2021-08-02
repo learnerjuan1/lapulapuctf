@@ -1,0 +1,13 @@
+The Brave and bold (50)
+
+Hidden inside is the name of a Brave and Bold warrior from the Visayas. 
+Search and recover the name and win the game (for now). 
+Hint: Be sure you know the correct spelling of this name.
+
+Filename: lapulapu.png
+
+----- Writeup by merlin777k
+using online steganography (you can search at google)
+https://stylesuxx.github.io/steganography/
+Click Decode , Upload and image.
+Flag is: lapulapu{d4tu_l4pul4pe}
